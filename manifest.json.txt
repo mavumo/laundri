@@ -1,5 +1,5 @@
 {
-  "background_color": "#ffffff",
+  "background_color": "#fbd43c",
   "description": "At Laundri, we celebrate imperfect beauty and minimalism with a modern edge. Our ethics and aesthetics are shaped by a creative tension - between effortless and intentional, subtraction and addition.",
   "dir": "ltr",
   "display": "standalone",
@@ -8,7 +8,7 @@
   "scope": "/",
   "short_name": "Laundri",
   "start_url": "/",
-  "theme_color": "#ffffff",
+  "theme_color": "#fbd43c",
   "icons": [
     {
       "src": "/favicon.png",
