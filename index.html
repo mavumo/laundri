@@ -44,6 +44,15 @@
   window.__WEBFLOW_CURRENCY_SETTINGS = {"currencyCode":"USD","symbol":"$","decimal":".","fractionDigits":2,"group":",","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","hideDecimalForWholeNumbers":false};
   </script>
 
+<script type="module">
+   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+   const el = document.createElement('pwa-update');
+   document.body.appendChild(el);
+  </script>
+
+  <link rel="manifest" href=
+  "/manifest.json">
+  
 <script>
                 var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?29608';
                 var s = document.createElement('script');
@@ -84,6 +93,8 @@
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1237323355260727"
      crossorigin="anonymous"></script>
+
+
   
 </head>
 <body>
